@@ -1,15 +1,15 @@
 
 import './App.css'
+import TodoList from './component/TodoList'
 
 function App() {
  
 
   return (
-    <div className='bg-black h-screen p-3'>
-      <div className='rounded mx-auto max-w-[750px] min-h-[550] shadow-2xl bg-white'>
-
-      </div>
+    <div>
+      <TodoList />
     </div>
+    
   )
 }
 
